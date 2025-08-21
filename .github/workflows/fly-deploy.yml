@@ -3,7 +3,7 @@ name: Fly Deploy
 on:
   push:
     branches:
-      - main   # ветка, при пуше в которую будет деплой
+      - master   # ветка, при пуше в которую будет деплой
 
 jobs:
   deploy:
