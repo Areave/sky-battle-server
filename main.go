@@ -8,7 +8,7 @@ import (
 
 // простой обработчик
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello from Go server on Fly.io, bitch!\n")
+	fmt.Fprintf(w, "Hello from Go server on Fly.io!!!\n")
 }
 
 func main() {
