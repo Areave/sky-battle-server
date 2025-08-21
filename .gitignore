@@ -7,9 +7,6 @@
 /*.so
 /*.dylib
 
-# Go modules
-/go.sum
-/go.mod
 
 # IDE: JetBrains GoLand
 .idea/
