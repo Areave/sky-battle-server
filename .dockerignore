@@ -1,10 +1,44 @@
-# flyctl launch added from .idea\.gitignore
-# Default ignored files
-.idea\shelf
-.idea\workspace.xml
-# Editor-based HTTP Client requests
-.idea\httpRequests
-# Datasource local storage ignored files
-.idea\dataSources
-.idea\dataSources.local.xml
-fly.toml
+# Игнорируем бинарники
+server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Директории сборки
+bin/
+build/
+
+# Go модули (их копируем, но старые артефакты можно игнорировать)
+go.sum
+go.mod
+
+# IDE файлы
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.out
+*.swp
+*.pid
+
+# Docker и локальные конфиги
+*.env
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Fly.io файлы
+.fly/
+
+# Vendor (если не коммитим)
+vendor/
+
+# Тестовые бинарники
+*_test
