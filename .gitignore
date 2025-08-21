@@ -1,0 +1,43 @@
+# Go build outputs
+/bin/
+/build/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+
+# Go modules
+/go.sum
+/go.mod
+
+# IDE: JetBrains GoLand
+.idea/
+/*.iml
+*.iws
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.out
+*.swp
+*.pid
+
+# Docker
+*.env
+docker-compose.override.yml
+docker-compose.local.yml
+**/Dockerfile.*.local
+
+# Fly.io
+.fly/
+
+# Vendor directory (optional, if you commit vendor, remove this line)
+vendor/
+
+# Test binaries
+*_test
